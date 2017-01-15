@@ -1,4 +1,5 @@
 languageCode = "en-us"
+theme = "hugo-story"
 baseurl = "http://frontmatter.ca/"
 title = "Front Matter Consulting"
 email = "lois@frontmatter.ca"
