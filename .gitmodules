@@ -1,0 +1,6 @@
+[submodule "hugo-universal-theme"]
+	path = themes/hugo-universal-theme
+	url = https://github.com/devcows/hugo-universal-theme.git
+[submodule "themes/hugo-story"]
+	path = themes/hugo-story
+	url = https://github.com/fishtron/hugo-story.git
