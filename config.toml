@@ -1,5 +1,19 @@
 languageCode = "en-us"
 theme = "hugo-story"
-baseurl = "http://frontmatter.ca/"
+baseurl = "http://www.frontmatter.ca/"
 title = "Front Matter Consulting"
-email = "lois@frontmatter.ca"
+
+[params]
+	author = "Lois Chan-Pedley"
+	email = "lois@frontmatter.ca"
+	skype = "lois.chan"
+	twitter = "fishtron"
+	linkedin = "loischanpedley"
+	github = "fishtron"
+	description = "We fit technology into your big picture."
+
+[params.features]
+
+[params.testimonials]
+
+[params.past_clients]

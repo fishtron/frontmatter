@@ -1,0 +1,18 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+
+	<title>{{ .Title }}</title>
+	{{ if .Site.Params.author }}<meta name="author" content="{{ .Site.Params.author }}" />{{ end }}
+	{{ if .Site.Params.description }}<meta name="description" content="{{ .Site.Params.description }}"/>{{ end }}
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	{{ .Hugo.Generator }}
+
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
+
+	<link rel="shortcut icon" href="{{ .Site.BaseURL }}img/favicon.ico" type="image/x-icon" />
+
+</head>
