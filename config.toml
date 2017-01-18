@@ -1,6 +1,6 @@
 languageCode = "en-us"
 theme = "hugo-story"
-baseurl = "http://www.frontmatter.ca/"
+baseurl = "http://www.frontmatter.ca/frontmatter/"
 title = "Front Matter Consulting"
 
 [params]
@@ -10,10 +10,23 @@ title = "Front Matter Consulting"
 	twitter = "fishtron"
 	linkedin = "loischanpedley"
 	github = "fishtron"
-	description = "We fit technology into your big picture."
 
-[params.features]
+[params.hero]
+	description = "We fit technology into your big picture."
+	link = "#features"
+	link_text = "What We Can Do For You"
 
 [params.testimonials]
+  enabled = true
+
+[params.features]
+	enabled = true
+	title = "Our Services"
+	subtitle = "We love all things tech. We specialize in integrating technology into your communications strategy. We love working with makers and doers -- artists, advocacy groups, and other small- to medium-sized businesses and nonprofits."
 
 [params.past_clients]
+  enabled = true
+
+[params.team]
+  enabled = true
+  title = "Meet The Team"
