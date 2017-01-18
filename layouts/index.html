@@ -9,57 +9,11 @@
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
 
-				<!-- Hero -->
-					<section class="banner style5 fullscreen onload-image-fade-in onload-content-fade-right">
-						<div class="content">
-							<h1>{{ .Title }}</h1>
-							<p class="major">{{ .Site.Params.description }}</p>
-							<ul class="actions vertical">
-								<li><a href="#features" class="button big wide smooth-scroll-middle">What We Can Do For You</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/banner.jpg" alt="" />
-						</div>
-					</section>
+				{{ partial "hero.html" . }}
 
-				<!-- Features -->
-					<section class="wrapper style1 align-center">
-						<div class="inner">
-							<h2 id="features">Our Services</h2>
-							<p>We love all things tech. We specialize in integrating technology into your communications strategy. We love working with makers and doers &mdash; artists, advocacy groups, and other small- to medium-sized businesses and nonprofits.</p>
-							<div class="items style1 big onscroll-fade-in">
-								<section>
-									<span class="icon style2 major fa-diamond"></span>
-									<h3>Website Development &amp; Maintenance</h3>
-									<p>We can build you a brand-new website, from start to finish. If you already have one but need some new features or some old bugs fixed up, we're here for you too. Your site is perfect as it is? We can do your routine upgrades and keep our eyes on it so it stays perfect.</p>
-								</section>
-								<section>
-									<span class="icon style2 major fa-twitter"></span>
-									<h3>Social Media Integration</h3>
-									<p>We can help you manage your social media presence efficiently and effectively.</p>
-								</section>
-								<section>
-									<span class="icon style2 major fa-search"></span>
-									<h3>Search Engine Optimization</h3>
-									<p>Want to drive more traffic to your site? We set up targets and track what works and what doesn't so you can gain (and retain) more customers.</p>
-								</section>
-								<section>
-									<span class="icon style2 major fa-wrench"></span>
-									<h3>Troubleshooting</h3>
-									<p>If you're running into problems with your tools, we can help you smooth it out. We're great at liaising with other developers and geeks, so you don't have to.</p>
-								</section>
-								<section>
-									<span class="icon style2 major fa-mortar-board"></span>
-									<h3>Training</h3>
-									<p>We provide training for many popular business and campaign management tools, such as <a href="http://www.wordpress.org">WordPress</a>, <a href="http://shopify.com">Shopify</a>, <a href="http://www.nationbuilder.com">NationBuilder</a>, and <a href="http://www.squarespace.com">Squarespace</a>. Whether you just need a quick brush-up or an all-hand-on-deck bootcamp with your entire team, training material is tailored to your needs.</p>
-								</section>
+				{{ partial "features.html" . }}
 
-							</div>
-						</div>
-					</section>
-
-				<!-- Spotlights -->
+				<!-- Testimonials -->
 					<section class="wrapper style1 align-center">
 						<div class="inner">
 							<h2>What Our Clients Say</h2>
@@ -105,7 +59,7 @@
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/spotlight01.jpg" alt="" />
+							<img src="images/spotlight03.jpg" alt="" />
 						</div>
 					</section>
 
@@ -113,7 +67,7 @@
 					<section class="wrapper style1 align-center">
 						<div class="inner">
 							<h2>Past Clients</h2>
-							<p>I have worked with a variety of clients, ranging from nutritional supplement companies to advocacy groups to music festivals. [...]</p>
+							<p>We have worked with a variety of clients, ranging from nutritional supplement companies to advocacy groups to international music festivals. We work with your needs &mdash; no matter how big &mdash; and budget &mdash; no matter how small &mdash; to make sure that your technology is working well for you.</p>
 						</div>
 
 						<!-- Gallery -->

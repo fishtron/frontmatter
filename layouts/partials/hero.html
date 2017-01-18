@@ -1,0 +1,13 @@
+<!-- Hero -->
+	<section class="banner style5 fullscreen onload-image-fade-in onload-content-fade-right">
+		<div class="content">
+			<h1>{{ .Title }}</h1>
+			<p class="major">{{ .Site.Params.hero.description | markdownify }}</p>
+			<ul class="actions vertical">
+				<li><a href="{{ .Site.Params.hero.link }}" class="button big wide smooth-scroll-middle">{{ .Site.Params.hero.link_text }}</a></li>
+			</ul>
+		</div>
+		<div class="image">
+			<img src="images/banner.jpg" alt="" />
+		</div>
+	</section>
