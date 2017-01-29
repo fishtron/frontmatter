@@ -3,7 +3,7 @@
 	<section class="wrapper style1 align-center">
 		<div class="inner">
 			<h2 id="features">{{ .Site.Params.features.title }}</h2>
-			<p>{{ .Site.Params.features.subtitle }}</p>
+			<p>{{ .Site.Params.features.description | markdownify }}</p>
 			<div class="items style1 big onscroll-fade-in">
 				{{ range .Site.Data.features }}
 				<section>

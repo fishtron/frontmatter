@@ -12,20 +12,32 @@ title = "Front Matter Consulting"
 	github = "fishtron"
 
 [params.hero]
-	description = "We fit technology into your big picture."
+	subtitle = "We fit technology into your big picture."
+	image = "images/banner.jpg"
 	link = "#features"
 	link_text = "What We Can Do For You"
-
-[params.testimonials]
-  enabled = true
 
 [params.features]
 	enabled = true
 	title = "Our Services"
-	subtitle = "We love all things tech. We specialize in integrating technology into your communications strategy. We love working with makers and doers -- artists, advocacy groups, and other small- to medium-sized businesses and nonprofits."
+	description = "We love all things tech. We specialize in integrating technology into your communications strategy. We love working with makers and doers -- artists, advocacy groups, and other small- to medium-sized businesses and nonprofits."
+
+[params.testimonials]
+  enabled = true
+  title = "What Our Clients Say"
+
+[params.cta]
+  enabled = true
+  image = "images/spotlight02.jpg"
+  title = "Got questions? Have a great new project idea?"
+  subtitle = ""
+  link = "#contact"
+  link_text = "Get In Touch"
 
 [params.past_clients]
   enabled = true
+  title = "Past Clients"
+  description = "We have worked with a variety of clients, ranging from nutritional supplement companies to advocacy groups to international music festivals. We work with your needs -- no matter how big -- and budget -- no matter how small -- to make sure that your technology is working well for you."
 
 [params.team]
   enabled = true

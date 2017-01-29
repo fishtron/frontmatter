@@ -12,6 +12,10 @@
 	{{ .Hugo.Generator }}
 
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
+	
+	{{ if (where (readDir "/static/css/") "Name" "custom.css") }}
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/custom.css" />
+	{{ end }}
 
 	<link rel="shortcut icon" href="{{ .Site.BaseURL }}img/favicon.ico" type="image/x-icon" />
 

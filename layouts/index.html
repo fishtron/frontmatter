@@ -16,7 +16,7 @@
 				<!-- Testimonials -->
 					<section class="wrapper style1 align-center">
 						<div class="inner">
-							<h2>What Our Clients Say</h2>
+							<h2>{{ .Site.Params.testimonials.title }}</h2>
 						</div>
 					</section>
 
@@ -50,28 +50,17 @@
 						</div>
 					</section>
 
-				<!-- CTA -->
-					<section class="banner style5">
-						<div class="content">
-							<h2>Got questions? Have a great new project idea?</h2>
-							<ul class="actions vertical">
-								<li><a href="#contact" class="button smooth-scroll">Get In Touch</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/spotlight03.jpg" alt="" />
-						</div>
-					</section>
+				{{ partial "cta.html" .Site.Params.cta }}
 
 				<!-- Past Clients -->
 					<section class="wrapper style1 align-center">
 						<div class="inner">
-							<h2>Past Clients</h2>
-							<p>We have worked with a variety of clients, ranging from nutritional supplement companies to advocacy groups to international music festivals. We work with your needs &mdash; no matter how big &mdash; and budget &mdash; no matter how small &mdash; to make sure that your technology is working well for you.</p>
+							<h2>{{ .Site.Params.past_clients.title }}</h2>
+							<p>{{ .Site.Params.past_clients.description | markdownify }}</p>
 						</div>
 
 						<!-- Gallery -->
-							<div class="gallery style2 medium lightbox onscroll-fade-in">
+							<div class="gallery style1 small lightbox onscroll-fade-in">
 								<article>
 									<a href="images/gallery/fulls/01.jpg" class="image">
 										<img src="images/gallery/thumbs/01.jpg" alt="" />

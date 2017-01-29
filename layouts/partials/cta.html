@@ -1,0 +1,14 @@
+<!-- CTA -->
+{{ if .enabled }}
+	<section class="banner style5">
+		<div class="content">
+			<h2>{{ .title }}</h2>
+			<ul class="actions vertical">
+				<li><a href="{{ .link }}" class="button smooth-scroll">{{ .link_text }}</a></li>
+			</ul>
+		</div>
+		<div class="image">
+			<img src="{{ .image }}" alt="" />
+		</div>
+	</section>
+{{ end }}
