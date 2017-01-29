@@ -13,7 +13,7 @@ title = "Front Matter Consulting"
 
 [params.hero]
 	subtitle = "We fit technology into your big picture."
-	image = "images/banner.jpg"
+	image = "images/field.jpg"
 	link = "#features"
 	link_text = "What We Can Do For You"
 
@@ -28,7 +28,7 @@ title = "Front Matter Consulting"
 
 [params.cta]
   enabled = true
-  image = "images/spotlight02.jpg"
+  image = "images/fern.jpg"
   title = "Got questions? Have a great new project idea?"
   subtitle = ""
   link = "#contact"
